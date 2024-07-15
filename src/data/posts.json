@@ -9,7 +9,8 @@
 		"slug": "introduction-to-javascript",
 		"excerpt": "Explore the basics of JavaScript and its applications in web development.",
 		"image": "https://via.placeholder.com/600x400?text=Introduction+to+JavaScript",
-		"category": "Programming"
+		"category": "Programming",
+		"isNew": true
 	},
 	{
 		"id": 2,
@@ -21,7 +22,8 @@
 		"slug": "getting-started-with-react",
 		"excerpt": "A guide to setting up your first React project and creating a simple component.",
 		"image": "https://via.placeholder.com/600x400?text=Getting+Started+with+React",
-		"category": "Programming"
+		"category": "Programming",
+		"isNew": false
 	},
 	{
 		"id": 3,
@@ -33,7 +35,8 @@
 		"slug": "understanding-css-flexbox",
 		"excerpt": "Learn the basics of CSS Flexbox and how to use it to design flexible, responsive layouts.",
 		"image": "https://via.placeholder.com/600x400?text=Understanding+CSS+Flexbox",
-		"category": "Web Design"
+		"category": "Web Design",
+		"isNew": false
 	},
 	{
 		"id": 4,
@@ -45,7 +48,8 @@
 		"slug": "building-portfolio-with-tailwind-css",
 		"excerpt": "Create a stunning portfolio website using Tailwind CSS, a utility-first CSS framework.",
 		"image": "https://via.placeholder.com/600x400?text=Building+a+Portfolio+with+Tailwind+CSS",
-		"category": "Web Design"
+		"category": "Web Design",
+		"isNew": false
 	},
 	{
 		"id": 5,
@@ -57,7 +61,8 @@
 		"slug": "asynchronous-javascript-promises-async-await",
 		"excerpt": "Understand how to handle asynchronous operations in JavaScript using Promises and Async/Await.",
 		"image": "https://via.placeholder.com/600x400?text=Asynchronous+JavaScript:+Promises+and+Async/Await",
-		"category": "Programming"
+		"category": "Programming",
+		"isNew": false
 	},
 	{
 		"id": 6,
@@ -69,7 +74,8 @@
 		"slug": "mastering-css-grid",
 		"excerpt": "Dive deep into CSS Grid and learn how to create complex layouts with ease.",
 		"image": "https://via.placeholder.com/600x400?text=Mastering+CSS+Grid",
-		"category": "Web Design"
+		"category": "Web Design",
+		"isNew": false
 	},
 	{
 		"id": 7,
@@ -81,7 +87,8 @@
 		"slug": "introduction-to-typescript",
 		"excerpt": "Learn the key features of TypeScript, a typed superset of JavaScript that compiles to plain JavaScript.",
 		"image": "https://via.placeholder.com/600x400?text=Introduction+to+TypeScript",
-		"category": "Programming"
+		"category": "Programming",
+		"isNew": false
 	},
 	{
 		"id": 8,
@@ -93,7 +100,8 @@
 		"slug": "building-responsive-websites-with-bootstrap-4",
 		"excerpt": "Learn the basics of Bootstrap 4 and how to use its components and utilities to build responsive websites.",
 		"image": "https://via.placeholder.com/600x400?text=Building+Responsive+Websites+with+Bootstrap+4",
-		"category": "Web Development"
+		"category": "Web Development",
+		"isNew": false
 	},
 	{
 		"id": 9,
@@ -105,7 +113,8 @@
 		"slug": "advanced-javascript-techniques",
 		"excerpt": "Explore advanced JavaScript techniques like closures, currying, and memoization to write more efficient and maintainable code.",
 		"image": "https://via.placeholder.com/600x400?text=Advanced+JavaScript+Techniques",
-		"category": "Programming"
+		"category": "Programming",
+		"isNew": false
 	},
 	{
 		"id": 10,
@@ -117,6 +126,7 @@
 		"slug": "introduction-to-web-accessibility",
 		"excerpt": "Learn the principles of web accessibility and best practices for making your websites usable by everyone, including people with disabilities.",
 		"image": "https://via.placeholder.com/600x400?text=Introduction+to+Web+Accessibility",
-		"category": "Web Design"
+		"category": "Web Design",
+		"isNew": false
 	}
 ]

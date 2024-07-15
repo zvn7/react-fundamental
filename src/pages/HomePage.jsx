@@ -4,20 +4,21 @@ import Search from "../components/Search";
 import posts from "../data/posts.json";
 
 export default function HomePage() {
-	const [search, setSearch] = useState("");
+	const [filteredPosts, setFilteredPosts] = useState(posts);
+	const [resultsCount, setResultsCount] = useState(posts.length);
 
-	const filteredPosts = posts.filter(
-		(post) =>
-			post.title.toLowerCase().includes(search.toLowerCase()) ||
-			post.content.toLowerCase().includes(search.toLowerCase()) ||
-			post.author.toLowerCase().includes(search.toLowerCase())
-	);
+	const onSearchChange = (value) => {
+		const filtered = posts.filter((item) => item.title.includes(value));
+		setFilteredPosts(filtered);
+		setResultsCount(filtered.length);
+	};
+
 	return (
 		<>
-			<div className=" ">
+			<div className="">
 				<div className="flex justify-between space-x-12 items-center">
 					<h1 className="text-2xl font-bold">Blog</h1>
-					<Search search={search} setSearch={setSearch} resultsCount={filteredPosts.length} />
+					<Search onSearchChange={onSearchChange} resultsCount={resultsCount} />
 				</div>
 				<div className="grid grid-cols-3 gap-4 mt-6">
 					{filteredPosts.map((post) => (
