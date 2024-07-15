@@ -1,0 +1,122 @@
+[
+	{
+		"id": 1,
+		"title": "Introduction to JavaScript",
+		"content": "JavaScript is a versatile programming language used primarily for web development. In this article, we will explore the basics of JavaScript and its applications.",
+		"author": "John Doe",
+		"date": "2024-07-01",
+		"tags": ["JavaScript", "Programming", "Web Development"],
+		"slug": "introduction-to-javascript",
+		"excerpt": "Explore the basics of JavaScript and its applications in web development.",
+		"image": "https://via.placeholder.com/600x400?text=Introduction+to+JavaScript",
+		"category": "Programming"
+	},
+	{
+		"id": 2,
+		"title": "Getting Started with React",
+		"content": "React is a popular JavaScript library for building user interfaces. This tutorial will guide you through setting up your first React project and creating a simple component.",
+		"author": "Jane Smith",
+		"date": "2024-07-05",
+		"tags": ["React", "JavaScript", "Web Development"],
+		"slug": "getting-started-with-react",
+		"excerpt": "A guide to setting up your first React project and creating a simple component.",
+		"image": "https://via.placeholder.com/600x400?text=Getting+Started+with+React",
+		"category": "Programming"
+	},
+	{
+		"id": 3,
+		"title": "Understanding CSS Flexbox",
+		"content": "CSS Flexbox is a layout module that makes it easier to design flexible responsive layout structures. In this article, we'll cover the basics of Flexbox and how to use it in your projects.",
+		"author": "Alice Johnson",
+		"date": "2024-07-10",
+		"tags": ["CSS", "Flexbox", "Web Design"],
+		"slug": "understanding-css-flexbox",
+		"excerpt": "Learn the basics of CSS Flexbox and how to use it to design flexible, responsive layouts.",
+		"image": "https://via.placeholder.com/600x400?text=Understanding+CSS+Flexbox",
+		"category": "Web Design"
+	},
+	{
+		"id": 4,
+		"title": "Building a Portfolio with Tailwind CSS",
+		"content": "Tailwind CSS is a utility-first CSS framework that allows you to build modern websites without leaving your HTML. Learn how to create a stunning portfolio website using Tailwind CSS.",
+		"author": "Bob Brown",
+		"date": "2024-07-12",
+		"tags": ["Tailwind CSS", "CSS", "Web Design"],
+		"slug": "building-portfolio-with-tailwind-css",
+		"excerpt": "Create a stunning portfolio website using Tailwind CSS, a utility-first CSS framework.",
+		"image": "https://via.placeholder.com/600x400?text=Building+a+Portfolio+with+Tailwind+CSS",
+		"category": "Web Design"
+	},
+	{
+		"id": 5,
+		"title": "Asynchronous JavaScript: Promises and Async/Await",
+		"content": "Handling asynchronous operations in JavaScript can be tricky. This article explains how to use Promises and Async/Await to manage asynchronous code more effectively.",
+		"author": "Charlie Davis",
+		"date": "2024-07-13",
+		"tags": ["JavaScript", "Async", "Programming"],
+		"slug": "asynchronous-javascript-promises-async-await",
+		"excerpt": "Understand how to handle asynchronous operations in JavaScript using Promises and Async/Await.",
+		"image": "https://via.placeholder.com/600x400?text=Asynchronous+JavaScript:+Promises+and+Async/Await",
+		"category": "Programming"
+	},
+	{
+		"id": 6,
+		"title": "Mastering CSS Grid",
+		"content": "CSS Grid is a powerful layout system available in CSS. In this guide, we will dive deep into CSS Grid and learn how to create complex layouts with ease.",
+		"author": "Dana Lee",
+		"date": "2024-07-15",
+		"tags": ["CSS", "Grid", "Web Design"],
+		"slug": "mastering-css-grid",
+		"excerpt": "Dive deep into CSS Grid and learn how to create complex layouts with ease.",
+		"image": "https://via.placeholder.com/600x400?text=Mastering+CSS+Grid",
+		"category": "Web Design"
+	},
+	{
+		"id": 7,
+		"title": "Introduction to TypeScript",
+		"content": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. This article introduces you to TypeScript and its key features.",
+		"author": "Evan Wright",
+		"date": "2024-07-18",
+		"tags": ["TypeScript", "JavaScript", "Programming"],
+		"slug": "introduction-to-typescript",
+		"excerpt": "Learn the key features of TypeScript, a typed superset of JavaScript that compiles to plain JavaScript.",
+		"image": "https://via.placeholder.com/600x400?text=Introduction+to+TypeScript",
+		"category": "Programming"
+	},
+	{
+		"id": 8,
+		"title": "Building Responsive Websites with Bootstrap 4",
+		"content": "Bootstrap 4 is a powerful front-end framework for building responsive websites. This article covers the basics of Bootstrap 4 and how to use its components and utilities.",
+		"author": "Fiona Zhang",
+		"date": "2024-07-20",
+		"tags": ["Bootstrap", "CSS", "Web Development"],
+		"slug": "building-responsive-websites-with-bootstrap-4",
+		"excerpt": "Learn the basics of Bootstrap 4 and how to use its components and utilities to build responsive websites.",
+		"image": "https://via.placeholder.com/600x400?text=Building+Responsive+Websites+with+Bootstrap+4",
+		"category": "Web Development"
+	},
+	{
+		"id": 9,
+		"title": "Advanced JavaScript Techniques",
+		"content": "This article explores advanced JavaScript techniques, including closures, currying, and memoization, to help you write more efficient and maintainable code.",
+		"author": "George Clark",
+		"date": "2024-07-22",
+		"tags": ["JavaScript", "Programming", "Advanced"],
+		"slug": "advanced-javascript-techniques",
+		"excerpt": "Explore advanced JavaScript techniques like closures, currying, and memoization to write more efficient and maintainable code.",
+		"image": "https://via.placeholder.com/600x400?text=Advanced+JavaScript+Techniques",
+		"category": "Programming"
+	},
+	{
+		"id": 10,
+		"title": "Introduction to Web Accessibility",
+		"content": "Web accessibility ensures that websites are usable by everyone, including people with disabilities. This article introduces the principles of web accessibility and best practices for implementing them.",
+		"author": "Helen Martinez",
+		"date": "2024-07-25",
+		"tags": ["Accessibility", "Web Design", "Best Practices"],
+		"slug": "introduction-to-web-accessibility",
+		"excerpt": "Learn the principles of web accessibility and best practices for making your websites usable by everyone, including people with disabilities.",
+		"image": "https://via.placeholder.com/600x400?text=Introduction+to+Web+Accessibility",
+		"category": "Web Design"
+	}
+]
