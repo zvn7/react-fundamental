@@ -1,5 +1,7 @@
 import HomePage from "./pages/HomePage";
 import { GlobalContext } from "./context";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routers";
 
 function App() {
 	const user = {
@@ -7,11 +9,11 @@ function App() {
 	};
 	return (
 		<div className="App bg-gray-50 ">
-			<GlobalContext.Provider value={user}>
-				<div className="container mx-auto p-12">
-					<HomePage />
-				</div>
-			</GlobalContext.Provider>
+			<div className="container mx-auto p-12">
+				<GlobalContext.Provider value={user}>
+					<RouterProvider router={router} />
+				</GlobalContext.Provider>
+			</div>
 		</div>
 	);
 }
