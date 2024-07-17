@@ -7,41 +7,7 @@ import {
 	Button,
 	Collapse,
 } from "@material-tailwind/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Link, Outlet } from "react-router-dom";
-
-function NavList() {
-	return (
-		<ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-			<Typography
-				as="li"
-				variant="small"
-				color="blue-gray"
-				className="p-1 font-medium"
-			>
-				<Link
-					to="/"
-					className="flex items-center hover:text-blue-500 transition-colors"
-				>
-					Home
-				</Link>
-			</Typography>
-			<Typography
-				as="li"
-				variant="small"
-				color="blue-gray"
-				className="p-1 font-medium"
-			>
-				<Link
-					to="/about"
-					className="flex items-center hover:text-blue-500 transition-colors"
-				>
-					About
-				</Link>
-			</Typography>
-		</ul>
-	);
-}
+import { Link, NavLink, Outlet } from "react-router-dom";
 
 const navList = (
 	<ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
@@ -51,12 +17,16 @@ const navList = (
 			color="blue-gray"
 			className="p-1 font-normal"
 		>
-			<Link
+			<NavLink
 				to="/"
-				className="flex items-center hover:text-blue-500 transition-colors"
+				className={({ isActive, isPending }) =>
+					`flex items-center transition-colors ${
+						isActive ? "text-blue-500" : "hover:text-blue-500"
+					} ${isPending ? "text-gray-500" : ""}`
+				}
 			>
 				Home
-			</Link>
+			</NavLink>
 		</Typography>
 		<Typography
 			as="li"
@@ -64,12 +34,16 @@ const navList = (
 			color="blue-gray"
 			className="p-1 font-normal"
 		>
-			<Link
+			<NavLink
 				to="/about"
-				className="flex items-center hover:text-blue-500 transition-colors"
+				className={({ isActive, isPending }) =>
+					`flex items-center transition-colors ${
+						isActive ? "text-blue-500" : "hover:text-blue-500"
+					} ${isPending ? "text-gray-500" : ""}`
+				}
 			>
 				About
-			</Link>
+			</NavLink>
 		</Typography>
 		<Typography
 			as="li"
@@ -77,12 +51,16 @@ const navList = (
 			color="blue-gray"
 			className="p-1 font-normal"
 		>
-			<Link
+			<NavLink
 				to="/blog"
-				className="flex items-center hover:text-blue-500 transition-colors"
+				className={({ isActive, isPending }) =>
+					`flex items-center transition-colors ${
+						isActive ? "text-blue-500" : "hover:text-blue-500"
+					} ${isPending ? "text-gray-500" : ""}`
+				}
 			>
 				Blog
-			</Link>
+			</NavLink>
 		</Typography>
 	</ul>
 );
