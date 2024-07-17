@@ -8,6 +8,8 @@ import {
 	Chip,
 	Typography,
 } from "@material-tailwind/react";
+import { useContext } from "react";
+import { GlobalContext } from "../context";
 
 const ArticleStatus = ({ isNew }) => {
 	return isNew && <span className="text-red-500">New</span>;
@@ -18,6 +20,7 @@ const ArticleStatus = ({ isNew }) => {
 // };
 
 export default function Article(props) {
+	const user = useContext(GlobalContext);
 	return (
 		<>
 			<Card className="mt-6 w-96">
@@ -41,6 +44,7 @@ export default function Article(props) {
 					<div className="mt-4 w-36 text-center">
 						<Chip variant="outlined" size="sm" value={props.category} />
 					</div>
+					<div>Created By {user.username}</div>
 				</CardBody>
 				<CardFooter>
 					<Button color="blue">Read More</Button>
