@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import Search from "../../components/Search";
 import { Link } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 
 export default function Blog() {
 	const [resultsCount, setResultsCount] = useState(0);
-	const [exPosts, setExPosts] = useState([]);
 
 	const onSearchChange = (value) => {
 		const filtered = exPosts.filter((item) => item.title.includes(value));
@@ -12,11 +12,7 @@ export default function Blog() {
 		setResultsCount(filtered.length);
 	};
 
-	useEffect(() => {
-		fetch("https://jsonplaceholder.typicode.com/posts")
-			.then((response) => response.json())
-			.then((json) => setExPosts(json));
-	}, []);
+	const exPosts = useLoaderData();
 
 	return (
 		<div>
